@@ -24,7 +24,7 @@ for i in Disk_array:
         email.login("Sender Email Address", "Password") 
 
         #message
-        message = "Your Disk utilization is" + str(d_usuage)
+        message = "Your Disk utilization is" + str(d_usage)
 
         #sendmail
         email.sendmail("Sender Email Address", "Recepient Email Address", message)
