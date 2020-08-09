@@ -1,4 +1,4 @@
-#Sample python script to find the cpu utlization of a windows server
+#Sample python script to find the cpu utlization of a windows machine and send and email if the cpu exceeds the threshold.
 
 #Importing the required libraries
 import psutil
